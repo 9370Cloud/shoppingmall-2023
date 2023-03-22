@@ -1,3 +1,3 @@
 #First team project : Shoppingmall website 2023
 
-What should I do?
+It is too hard to start project.
