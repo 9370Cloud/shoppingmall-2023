@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .title-div{
+            display:inline-block;
+            width: 100px;
+            height: 30px;
+            margin: 10px;
+            background-color: tomato;
+        }
+        <!--다른 사이트를 참고하여 사이드바를 어떻게 쓰는지 알아보기-->
+        .receipt{
+            float: right;
+            width: 70px;
+            height: 200px;
+            background-color: teal;
+        }
+        .order-list{
+            width: 400px;
+            height: 60px;
+            margin: 10px;
+            background-color: wheat;
+        }
+        .block-span {
+            display: block;
+        }
+        .customer-info{
+            width: 400px;
+            height: 30px;
+            margin: 10px;
+            background-color: turquoise;
+        }
+    </style>
+    <title>주문/결제 페이지</title>
+</head>
+<body>
+    <div class="title-div">
+        <span>주문/결제</span>
+    </div>
+    <div class="receipt">
+        <div class="recipt__pay">
+            <span class="block-span">상품 금액</span>
+            <span class="block-span">+ 배송비</span>
+            <span class="block-span">12,500원</span>
+        </div>
+        <div class="recipt__purchase-agreement"></div>
+    </div>
+    <div class="order-list">
+        <div class="order-list__product">
+            <img src="#"/>
+            <span>제품명 : 옷</span>
+            <!--나중에 sql 반복문으로 대체-->
+            <span>수량 : 1</span>
+            <!--버튼 방식으로 개수 조절-->
+            <span>사이즈 : XL</span>
+            <!--옵션 선택-->
+            <span>가격 : 100000</span>
+            <!-- 수량 * 가격 -->
+            <img src="#"/>
+            <span>수량 : 2</span>
+            <span>사이즈 : L</span>
+            <span>가격 : 200000</span>
+        </div>
+    </div>
+    <div class="customer-info">
+        <span>이름 : 김승혁</span>
+        <span>전화번호 : 010-1234-1234</span>
+        <span>주소 : 집1</span>
+    </div>
+    <div class="payment">
+        <div class="payment__card"></div>
+        <div class="payment__cash"></div>
+    </div>
+    
+</body>
+</html>
