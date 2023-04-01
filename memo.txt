@@ -1,0 +1,18 @@
+2023-03-29
+결제 페이지 HTML 작업하기
+
+2023-03-31
+
+화면 분할
+https://velog.io/@sominpark/CSS%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%99%94%EB%A9%B4-%EC%84%A4%EA%B3%84-%EA%B8%B0%EB%B3%B8
+
+bootstrap
+이해
+
+아오 어렵다 어려워 
+
+결제창 = checkout
+소스 복사하면 링크가 제대로 안 넘어오는 경우가 있음
+https://getbootstrap.com/docs/4.0/examples/checkout/
+
+kokoa clone에서 배운 transition과 variables.css에 :root 만들기 등을 사용해서 웹사이트 업그레이드 하기 
